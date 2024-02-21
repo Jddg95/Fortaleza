@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto; 
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-logo{ /* These rules apply to the image logo on the nav bar*/
+    max-width: 500px; /* logo only takes up assigned space */
+    height: 200px; /* height of logo */
+}
+
+header nav ul li {
+    font-size: x-large; /*changes font size*/
+    list-style: none; /* removes list bullets */
+    display: inline-block;/* makes list items be side by side not 
+    stacked on each other */
+    margin-right: 150px;
+}
+
+nav a {
+    justify-content: end;
+}
